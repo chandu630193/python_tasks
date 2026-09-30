@@ -1,13 +1,13 @@
 # python code for hangman game 
 import random
 def play_hangman():
-    # 1. List of 5 predefined words
-    words = ["future", "growth", "jungle", "oceans", "planet"]
+ # 1. List of 5 predefined words
+words = ["future", "growth", "jungle", "oceans", "planet"]
     
-    # 2. Key concept: random (select a word from the list)
+ # 2. Key concept: random (select a word from the list)
     word_to_guess = random.choice(words)
-    
-    # 3. Key concept: lists (track guessed letters)
+            
+ # 3. Key concept: lists (track guessed letters)
     guessed_letters = []
     
     incorrect_guesses = 0
