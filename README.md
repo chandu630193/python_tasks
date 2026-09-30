@@ -1,8 +1,8 @@
 # python code for hangman game 
 import random
-def play_hangman():
+    def play_hangman():
  # 1. List of 5 predefined words
-words = ["future", "growth", "jungle", "oceans", "planet"]
+    words = ["future", "growth", "jungle", "oceans", "planet"]
     
  # 2. Key concept: random (select a word from the list)
     word_to_guess = random.choice(words)
