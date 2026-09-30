@@ -1,8 +1,4 @@
 # python code for hangman game 
-# it contain 6 letter words 
-# guess the missing letters of the world
-
-
 import random
 def play_hangman():
     # 1. List of 5 predefined words
