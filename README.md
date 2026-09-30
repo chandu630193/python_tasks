@@ -1,7 +1,4 @@
-# python_tasks
-#The internships i made
 import random
-
 def play_hangman():
     # 1. List of 5 predefined words
     words = ["apple", "lion", "jungle", "ocean", "planet"]
