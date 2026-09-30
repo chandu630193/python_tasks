@@ -1,7 +1,12 @@
+# python code for hangman game 
+# it contain 6 letter words 
+# guess the missing letters of the world
+
+
 import random
 def play_hangman():
     # 1. List of 5 predefined words
-    words = ["apple", "lion", "jungle", "ocean", "planet"]
+    words = ["future", "growth", "jungle", "oceans", "planet"]
     
     # 2. Key concept: random (select a word from the list)
     word_to_guess = random.choice(words)
